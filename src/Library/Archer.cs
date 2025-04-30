@@ -11,8 +11,8 @@ public class Archer
     {
         Name = name;
         Health = health;
-        weapon = weapon;
-        armour = armour; 
+        Weapon = weapon;
+        Armour = armour; 
     }
 
     public void ChangeGun(Weapon newWeapon)
