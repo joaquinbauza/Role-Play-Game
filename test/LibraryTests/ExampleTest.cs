@@ -8,18 +8,23 @@ public class Tests
     [SetUp]
     public void Setup()
     {
-        Gun gun1 = new Gun("Arco", 10);
+        Weapon weapon1 = new Weapon("Arco", 10);
         Outfit outfit1 = new Outfit("Capa", 5);
-        Archer archer1 = new Archer("jota", 100, gun1, outfit1);
+        Archer archer1 = new Archer("jota", 100, weapon1, outfit1);
 
-        Gun gun2 = new Gun("Ballesta", 7);
+        Weapon weapon2 = new Weapon("Ballesta", 7);
         Outfit outfit2 = new Outfit("Traje", 10);
-        Archer archer2 = new Archer("bolso gallina", 70, gun2, outfit2);
+        Archer archer2 = new Archer("bolso gallina", 70, weapon2, outfit2);
     }
 
     [Test]
-    public void Test1()
+    public void TestGetTotalAttack() //para ver si me devuelve los dos lo mismo, que seria lo esperado, de lado izquierdo lo que se espera, derecha lo que devuelve
     {
-        Assert.Pass();
+        Assert.AreEqual(100,archer1.GetTotalAttack());
+    }
+
+    public void TestGetTotalDefense()
+    {
+        Assert.AreEqual(5,archer1.GetTotalDefense());
     }
 }

@@ -4,21 +4,21 @@ public class Archer
 {
     public string Name { get; set; }
     public int Health { get; set; }
-    public  Gun gun { get; set; }
+    public  Weapon Weapon { get; set; }
     public Outfit outfit { get; set; }
 
-    public Archer(string name, int health, Gun gun, Outfit outfit)
+    public Archer(string name, int health, Weapon weapon, Outfit outfit)
     {
         Name = name;
         Health = health;
-        gun = gun;
+        weapon = weapon;
         outfit = outfit; 
     }
 
-    public void ChangeGun(Gun new_gun)
+    public void ChangeGun(Weapon newWeapon)
     {
-        gun = new_gun;
-        Console.WriteLine($"Ha cambiado de {gun} a {new_gun} "); //muestra el cambio de arma que se realizó
+        Weapon = newWeapon;
+        Console.WriteLine($"Ha cambiado de {Weapon} a {newWeapon} "); //muestra el cambio de arma que se realizó
     }
 
     public void ChangeOutfit(Outfit new_Outfit)
@@ -30,7 +30,7 @@ public class Archer
     public int GetTotalAttack()
     {
         Console.WriteLine($"El ataque realizado fue: "); //para ver cuanto daño total realizado con su arma 
-        return gun.Attack_Damage;
+        return Weapon.Attack_Damage;
     }
 
     public int GetTotalDefense()
