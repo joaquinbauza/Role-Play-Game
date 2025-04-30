@@ -1,33 +1,33 @@
-﻿using System; 
+using System;
 using Library;
 
-namespace Program
+namespace App
 {
-    public class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main(stirng[] args)
         {
-            Archer jota = new Archer("jota", 120, 30);
-            Archer baez = new Archer("baez", 120, 30);
+            Mago randalf = new Mago ("Randalf", 100, 94);
+            Mago recoba = new Mago ("Recoba", 100, 20);
 
-            Elemento arco = new Elemento("Arco", 15, 5);
-            Elemento capa = new Elemento("Capa", 0, 15);
+            Elemento baston = new Elemento ("Baston de poder", 10, 5);
+            Elemento tunica = new Element ("Tunica encantada", 0, 10);
 
-            Elemento arco_encantado = new Elemento("Arco encantado", 20, 10);
-            Elemento tunica = new Elemento("Tunica", 0, 10);
+            Elemento oraculo = new Elemento ("Libro Osucro", 15, 2);
+            Elemento capa = new Elemento ("Capa de sombras", 0, 8);
 
-            jota.Inventory.Add(arco);
-            jota.Inventory.Add(capa);
+            randalf.Inventory.Add(baston);
+            randalf.Inventory.Add(tunica);
 
-            baez.Inventory.Add(arco_encantado);
-            baez.Inventory.Add(tunica);
+            recoba.Inventory.Add(oraculo);
+            recoba.Inventory.Add(capa);
 
-            jota.ShowElements();
-            baez.ShowElements();
+            randalf.ShowElements();
+            recoba.ShowElements();
 
-            jota.Attack(baez);
-            baez.Attack(jota);
-            jota.Attack(baez);
+            randalf.Attack(recoba);
+            recoba.Attack(randalf);
+            randalf.Attack(recoba);
         }
     }
 }
