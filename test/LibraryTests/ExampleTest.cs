@@ -9,11 +9,11 @@ public class Tests
     public void Setup()
     {
         Weapon weapon1 = new Weapon("Arco", 10);
-        Outfit outfit1 = new Outfit("Capa", 5);
+        Armour outfit1 = new Armour("Capa", 5);
         Archer archer1 = new Archer("jota", 100, weapon1, outfit1);
 
         Weapon weapon2 = new Weapon("Ballesta", 7);
-        Outfit outfit2 = new Outfit("Traje", 10);
+        Armour outfit2 = new Armour("Traje", 10);
         Archer archer2 = new Archer("bolso gallina", 70, weapon2, outfit2);
     }
 

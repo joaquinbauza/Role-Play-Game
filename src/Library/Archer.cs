@@ -5,14 +5,14 @@ public class Archer
     public string Name { get; set; }
     public int Health { get; set; }
     public  Weapon Weapon { get; set; }
-    public Outfit outfit { get; set; }
+    public Armour Armour { get; set; }
 
-    public Archer(string name, int health, Weapon weapon, Outfit outfit)
+    public Archer(string name, int health, Weapon weapon, Armour armour)
     {
         Name = name;
         Health = health;
         weapon = weapon;
-        outfit = outfit; 
+        armour = armour; 
     }
 
     public void ChangeGun(Weapon newWeapon)
@@ -21,10 +21,10 @@ public class Archer
         Console.WriteLine($"Ha cambiado de {Weapon} a {newWeapon} "); //muestra el cambio de arma que se realizó
     }
 
-    public void ChangeOutfit(Outfit new_Outfit)
+    public void ChangeOutfit(Armour newArmour)
     {
-        outfit = new_Outfit;
-        Console.WriteLine($"El nuevo outfit del Arquero es {new_Outfit}"); //muestra el cambio de outfit que se realizó
+        Armour = newArmour;
+        Console.WriteLine($"El nuevo outfit del Arquero es {newArmour}"); //muestra el cambio de outfit que se realizó
     }
 
     public int GetTotalAttack()
@@ -36,12 +36,12 @@ public class Archer
     public int GetTotalDefense()
     {
         Console.WriteLine($"El ataque recibido fue: "); //para ver cuanto daño defendió con su armadura
-        return outfit.Attack_Defense;
+        return Armour.Attack_Defense;
     }
 
-    public void DamageCharacter(int Attack_Damage) // para cuando recibe el daño, ver la salud que le queda al personaje
+    public void DamageCharacter(int Attack_Damage, int Attack_Defense) // para cuando recibe el daño, ver la salud que le queda al personaje
     {
-        Health -= Attack_Damage;
+        Health -= Attack_Damage + Attack_Defense;
         if (Health < 0)
         {
             Health = 0;
