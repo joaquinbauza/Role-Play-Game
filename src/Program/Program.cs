@@ -1,33 +1,35 @@
-﻿using System; 
-using Library;
+﻿using System;
+ using System.Linq.Expressions;
+ using Library;
 
-namespace Program
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Archer jota = new Archer("jota", 120, 30);
-            Archer baez = new Archer("baez", 120, 30);
+ namespace App
+ {
+     class Program
+     {
+         static void Main(string[] args)
+         {
+             Dwarves Franibanez = new Dwarves("Franibanez", 10, 15);
+             Dwarves FerScoco = new Dwarves("FerScoco", 100, 80);
 
-            Elemento arco = new Elemento("Arco", 15, 5);
-            Elemento capa = new Elemento("Capa", 0, 15);
+             Elemento MazoDeCartas = new Elemento("MazoDeCartas", 10, 5);
+             Elemento BuzoDeLana = new Elemento("BuzoDeLana", 0, 10);
+             
+             Elemento VaritaDeSauco = new Elemento("VaritaDeSauco", 100, 5);
+             Elemento CapaDeInvisibilidad = new Elemento("CapaDeInvisibilidad", 0, 100);
 
-            Elemento arco_encantado = new Elemento("Arco encantado", 20, 10);
-            Elemento tunica = new Elemento("Tunica", 0, 10);
+             Franibanez.Inventory.Add(MazoDeCartas);
+             Franibanez.Inventory.Add(BuzoDeLana);
 
-            jota.Inventory.Add(arco);
-            jota.Inventory.Add(capa);
+             FerScoco.Inventory.Add(VaritaDeSauco);
+             FerScoco.Inventory.Add(CapaDeInvisibilidad);
 
-            baez.Inventory.Add(arco_encantado);
-            baez.Inventory.Add(tunica);
+             Franibanez.ShowElements();
+             FerScoco.ShowElements();
 
-            jota.ShowElements();
-            baez.ShowElements();
+             FerScoco.Attack(Franibanez);
+             Franibanez.Attack(FerScoco);
+             FerScoco.Attack(Franibanez);
 
-            jota.Attack(baez);
-            baez.Attack(jota);
-            jota.Attack(baez);
         }
     }
 }

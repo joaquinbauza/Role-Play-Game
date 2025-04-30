@@ -1,16 +1,14 @@
 namespace Library
 {
-    public class Mago : Personaje
+    public class Dwarves : Personaje
     {
-        public Mago(string nombre, int vida, int ataque)
+        public Dwarves(string nombre, int vida, int ataque)
         {
             this.Name = nombre;
             this.Health = vida;
             this.AttackPoints = ataque;
-            this.InitialHealth = vida;
+            this.InitialHealth = vida; 
         }
-
-        // Hereda toda la lógica de Personaje.
     }
 }
 
