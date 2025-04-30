@@ -11,8 +11,8 @@ public class Elves
     {
         Name = name;
         Health = health;
-        weapon = weapon;
-        outfit = outfit; 
+        Weapon = weapon;
+        Outfit = outfit; 
     }
 
     public void ChangeGun(Weapon newWeapon)
