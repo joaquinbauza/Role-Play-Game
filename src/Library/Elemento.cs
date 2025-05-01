@@ -1,7 +1,9 @@
 namespace Library;
 
-public class Elemento: IElemento
+
+public class Elemento: IElemento 
 {
+    
     public string Name {get; private set;}
     public int Attack {get; private set;}
     public int Armor {get; private set;}
