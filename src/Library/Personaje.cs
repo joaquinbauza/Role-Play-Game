@@ -58,7 +58,4 @@ public abstract class Personaje: IPersonaje
     }
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 054b1551bddccbd560fd5d20d5271091588da943
