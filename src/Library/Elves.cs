@@ -1,8 +1,8 @@
 namespace Library
 {
-    public class Mago : Personaje
+    public class Elves : Personaje
     {
-        public Mago(string nombre, int vida, int ataque)
+        public Elves(string nombre, int vida, int ataque)
         {
             this.Name = nombre;
             this.Health = vida;
@@ -12,9 +12,4 @@ namespace Library
 
         // Hereda toda la lógica de Personaje.
     }
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 054b1551bddccbd560fd5d20d5271091588da943
