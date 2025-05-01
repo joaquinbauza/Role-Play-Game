@@ -1,0 +1,100 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Página-1" id="xbRv0EWlO96-x_EMEOtZ">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-2" value="Persoanje" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-4" value="Nombre&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Defensa&lt;/div&gt;&lt;div&gt;Items&lt;/div&gt;&lt;div&gt;Crear&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-7" value="Elemento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="140" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-9" value="Nombre&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Defensa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="270" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-13" value="Mago" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-14" value="Nombre&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Vida&lt;/div&gt;&lt;div&gt;Defensa&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="330" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-15" value="Personaje" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="270" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-19" value="Arquero" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="465" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="330" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-22" value="Peronaje" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="525" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-23" value="&lt;br&gt;&lt;div&gt;Nombre&lt;/div&gt;&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Vida&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="405" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="270" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-26" value="Elfo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-27" value="Nombre&amp;nbsp;&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Defensa&lt;/div&gt;&lt;div&gt;Vida&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="330" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-28" value="Personaje" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="827" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="270" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="330" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-32" value="Enano" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1065" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-33" value="Nombre&lt;div&gt;Vida&lt;/div&gt;&lt;div&gt;Ataque&lt;/div&gt;&lt;div&gt;Defensa&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ijs5RU1kqHhYGCRN2T5b-34" value="Personaje" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
