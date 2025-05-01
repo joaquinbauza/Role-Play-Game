@@ -1,15 +1,15 @@
-<<<<<<< HEAD
+
 ﻿using System;
 =======
 using System;
->>>>>>> 054b1551bddccbd560fd5d20d5271091588da943
+
 using Library;
 
 namespace App
 {
     class Program
     {
-<<<<<<< HEAD
+
         static void Main(string[] args)
         {
             Mago randalf = new Mago("Randalf", 100, 94);
@@ -24,7 +24,7 @@ namespace App
             randalf.Inventory.Add(baston);
             randalf.Inventory.Add(tunica);
             
-=======
+
         static void Main(stirng[] args)
         {
             Mago randalf = new Mago ("Randalf", 100, 94);
@@ -39,7 +39,7 @@ namespace App
             randalf.Inventory.Add(baston);
             randalf.Inventory.Add(tunica);
 
->>>>>>> 054b1551bddccbd560fd5d20d5271091588da943
+
             recoba.Inventory.Add(oraculo);
             recoba.Inventory.Add(capa);
 
@@ -51,8 +51,4 @@ namespace App
             randalf.Attack(recoba);
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 054b1551bddccbd560fd5d20d5271091588da943
